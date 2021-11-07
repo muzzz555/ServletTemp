@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Servlet Temperature</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+         <form name="main" action="ServletFToC" method="Post">
+             Input Temperature : <input type="text" name="Temperature" value="" size="30" />
+            <br>
+            <br>
+            <input type="submit" value="Fahrenheit to Celsius" name="submitFToC" /> 
+            <br>
+            <br>
+            <input type="submit" formaction="ServletCToF" value="Celsius to Fahrenheit" name="submitCToF" />
+        </form>
+    </body>
+</html>
